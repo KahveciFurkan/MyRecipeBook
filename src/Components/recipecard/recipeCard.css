@@ -1,0 +1,51 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 3%;
+    padding: 20px;
+    background-color: #9980FA;
+    margin-top: 50px;
+}
+img {
+    position: relative;
+    width: 100%;
+    border-radius: 3%;
+    
+}
+.title {
+    padding-top: 10px;
+    padding-left: 0px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.desc{
+    position: relative;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: auto;
+
+
+
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px 2px rgb(239, 218, 190);
+    border-color: gold;
+}
+.btn-delete {
+    position: relative;
+    width: 60px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: auto;
+    background-color: #ffffff;
+    color: black;
+    width: auto;
+    height: auto;
+    border-radius: 80%;    
+}

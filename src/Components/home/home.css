@@ -1,0 +1,16 @@
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    padding-top: 30px;
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+    padding-top: 15px;
+    margin-bottom: 40px;
+}
